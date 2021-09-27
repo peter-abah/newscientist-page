@@ -10,235 +10,245 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/main.css">
   <title>Ancient Lake in Mars' Gale crater may have actually been a small pond</title>
 </head>
 
 <body>
   <header class="header" id="top">
-    <p class="newsletter">
-      <h4>NEWSLETTER</h4>
-      <a href="">Sign up to read our regular newsletter</a>
-    </p>
+    <div class="promotion">
+      <h3 class="promotion-title">NEWSLETTERS</h3>
+      <p class="promotion-sub-title">
+        <a href="">Sign up to read our regular email newsletter</a>
+      </p>
+    </div>
 
-    <h1>NewScientist</h1>
-    <button type="button">SUBCRIBE AND SAVE 54%</button>
+    <h1><img class="logo" src="images/newscientist-logo.svg" alt="NewScientist"></h1>
+    <button class="subscribe-btn" type="button">SUBCRIBE AND SAVE 54%</button>
   </header>
 
   <nav class="main-nav">
-    <ul>
-      <li><a href="#">News</a></li>
-      <li><a href="#">Podcasts</a></li>
-      <li><a href="#">Video</a></li>
-      <li><a href="#">Technology</a></li>
-      <li><a href="#">Space</a></li>
-      <li><a href="#">Physics</a></li>
-      <li><a href="#">Earth</a></li>
-      <li><a href="#">More</a></li>
-    </ul>
+    <div class="wrapper">
+      <ul class="nav-links">
+        <li><a class="nav-link" href="#">News</a></li>
+        <li><a class="nav-link" href="#">Podcasts</a></li>
+        <li><a class="nav-link" href="#">Video</a></li>
+        <li><a class="nav-link" href="#">Technology</a></li>
+        <li><a class="nav-link active" href="#">Space</a></li>
+        <li><a class="nav-link" href="#">Physics</a></li>
+        <li><a class="nav-link" href="#">Earth</a></li>
+        <li><a class="nav-link" href="#">More</a></li>
 
-    <ul>
-      <li><a href="#">Shop</a></li>
-      <li><a href="#">Courses</a></li>
-      <li><a href="#">Events</a></li>
-      <li><a href="#">Tours</a></li>
-      <li><a href="#">Jobs</a></li>
-    </ul>
+        <li><a class="nav-link secondary" href="#">Shop</a></li>
+        <li><a class="nav-link secondary" href="#">Courses</a></li>
+        <li><a class="nav-link secondary" href="#">Events</a></li>
+        <li><a class="nav-link secondary" href="#">Tours</a></li>
+        <li><a class="nav-link secondary" href="#">Jobs</a></li>
+      </ul>
 
-    <ul>
-      <li><a href="#">Sign in</a></li>
-      <li><a href="#">Search</a></li>
-    </ul>
+      <ul class="user-actions">
+        <li><a class="user-link" href="#">Sign in</a></li>
+        <li><a class="user-link" href="#">Search</a></li>
+      </ul>
+    </div>
   </nav>
 
-  <section>
-    <article>
-      <header>
-        <h1>Ancient lake in Mars’s Gale crater may have actually been a small pond</h1>
+  <div class="grid-wrapper">
+    <section class="article">
+      <article>
+        <header>
+          <h1 class="article-title">Ancient lake in Mars’s Gale crater may have actually been a small pond</h1>
 
-        <ul>
-          <li>
-            <a href="#">
-              <img src="images/facebook-icon.png" alt="Facebook">
-            </a>
-          </li>
+          <ul class="social-links">
+            <li>
+              <a href="#">
+                <img src="images/facebook-icon.png" alt="Facebook">
+              </a>
+            </li>
 
-          <li>
-            <a href="#">
-              <img src="images/twitter-icon.png" alt="Twitter">
-            </a>
-          </li>
+            <li>
+              <a href="#">
+                <img src="images/twitter-icon.png" alt="Twitter">
+              </a>
+            </li>
 
-          <li>
-            <a href="#">
-              <img src="images/whatsapp-icon.png" alt="Whatsapp">
-            </a>
-          </li>
+            <li>
+              <a href="#">
+                <img src="images/whatsapp-icon.png" alt="Whatsapp">
+              </a>
+            </li>
 
-          <li>
-            <a href="#">
-              <img src="images/linkedin-icon.png" alt="LinkedIn">
-            </a>
-          </li>
+            <li>
+              <a href="#">
+                <img src="images/linkedin-icon.png" alt="LinkedIn">
+              </a>
+            </li>
 
-          <li>
-            <a href="#">
-              <img src="images/reddit-icon.png" alt="Reddit">
-            </a>
-          </li>
+            <li>
+              <a href="#">
+                <img src="images/reddit-icon.png" alt="Reddit">
+              </a>
+            </li>
 
-          <li>
-            <a href="#">
-              <img src="images/mail-icon.png" alt="Email">
-            </a>
-          </li>
+            <li>
+              <a href="#">
+                <img src="images/mail-icon.png" alt="Email">
+              </a>
+            </li>
 
-          <li>
-            <a href="#">
-              <img src="images/print-icon.png" alt="Print">
-            </a>
-          </li>
-        </ul>
+            <li>
+              <a href="#">
+                <img src="images/print-icon.png" alt="Print">
+              </a>
+            </li>
+          </ul>
+
+          <p class="article-info">
+            <span class="bold">SPACE</span>
+            <time datetime="2021-08-06">6 August 2021</time>
+          </p>
+
+          <p class="author">
+            By <a class="author-name" href="$">Leah Crane</a>
+          </p>
+        </header>
+
+        <figure class="article-img">
+          <img src="images/article.jpg" alt="Gale crater in Mars">
+          <figcaption>
+            <p class="caption">
+              The rocks inside Gale crater hint there may not have been a large 
+              lake there after all
+            </p>
+            <p class="reference">NASA/JPL-Caltech/University of Arizona</p>
+          </figcaption>
+        </figure>
+
+        <p class="article-content">
+          A purported ancient lake on Mars may have been far smaller than 
+          researchers thought. NASA’s Curiosity rover has been exploring Gale 
+          crater for more than eight years, and while early observations suggested
+           the entire crater may once have been filled with water, a new analysis 
+           implies that it just had a series of ponds instead.
+        </p>
+
+        <p class="article-content">
+          Previous analyses of data from Curiosity have relied heavily on a 
+          measure called the chemical index of alteration to determine how rocks 
+          were weathered over time. Joseph Michalski at the University of Hong 
+          Kong and his colleagues have suggested that because this measure was 
+          developed for use on Earth, it may not be valid in the extreme Martian 
+          climate.
+        </p>
+
+        <p class="article-content">
+          Instead, they analysed the concentrations of various compounds that are 
+          expected to change based on different types of weathering over time. 
+          They found that some of the layers of rock Curiosity examined did 
+          interact with water at some point in their past, but more are likely to 
+          have formed outside of the water.
+        </p>
+
+        <p class="article-content">
+          “Over hundreds of metres of strata, it seems that the only layers that 
+          are demonstrably lacustrine [formed in a lake] are the lower few 
+          metres,” says Michalski. “Of the rocks visited by the rover… the 
+          fraction that is demonstrably lacustrine is something like 1 per cent.”
+        </p>
+
+        <p class="article-content">
+          These rocks were mostly in the lowest few metres of sediments in the 
+          crater, suggesting the lake was not nearly as deep or extensive as we 
+          thought. “There was likely a small lake or more likely a series of small
+          lakes in the floor of Gale crater, but these were shallow ponds,” says 
+          Michalski.
+        </p>
+
+        <p class="article-content">
+          The rocks that didn’t form in water appeared to be volcanic, so 
+          Michalski says that they may have formed out of ash from volcanic 
+          eruptions after the water in Gale crater had dried up. Observations by 
+          other Mars missions have hinted that these sediments were deposited by 
+          wind, not water, so this may solve that mismatch.
+        </p>
+
+        <p class="reference">
+          <span>Journal References:</span>
+          <em>Science Advances,</em> <a href="#">DOI: 10.1126/sciadv.abh2687</a>
+        </p>
 
         <p>
-          <span>SPACE</span>
-          <time datetime="2021-08-06">6 August 2021</time>
-          By <span>Leah Crane</span>
+          Sign up to our free Launchpad newsletter for a voyage across the galaxy 
+          and beyond, every Friday
         </p>
-      </header>
 
-      <figure>
-        <img src="images/article.jpg" alt="Gale crater in Mars">
-        <figcaption>
-          The rocks inside Gale crater hint there may not have been a large lake
-          there after all
-          <span>NASA/JPL-Caltech/University of Arizona</span>
-        </figcaption>
-      </figure>
+        <p>
+          More on this topics:
+          <a href="#">PLANETS</a>
+          <a href="#">MARS</a>
+        </p>
+      </article>
 
-      <p>
-        A purported ancient lake on Mars may have been far smaller than 
-        researchers thought. NASA’s Curiosity rover has been exploring Gale 
-        crater for more than eight years, and while early observations suggested
-         the entire crater may once have been filled with water, a new analysis 
-         implies that it just had a series of ponds instead.
-      </p>
+      <div class="sponsored">
+        <h3>SPONSORED CONTENT</h3>
 
-      <p>
-        Previous analyses of data from Curiosity have relied heavily on a 
-        measure called the chemical index of alteration to determine how rocks 
-        were weathered over time. Joseph Michalski at the University of Hong 
-        Kong and his colleagues have suggested that because this measure was 
-        developed for use on Earth, it may not be valid in the extreme Martian 
-        climate.
-      </p>
-
-      <p>
-        Instead, they analysed the concentrations of various compounds that are 
-        expected to change based on different types of weathering over time. 
-        They found that some of the layers of rock Curiosity examined did 
-        interact with water at some point in their past, but more are likely to 
-        have formed outside of the water.
-      </p>
-
-      <p>
-        “Over hundreds of metres of strata, it seems that the only layers that 
-        are demonstrably lacustrine [formed in a lake] are the lower few 
-        metres,” says Michalski. “Of the rocks visited by the rover… the 
-        fraction that is demonstrably lacustrine is something like 1 per cent.”
-      </p>
-
-      <p>
-        These rocks were mostly in the lowest few metres of sediments in the 
-        crater, suggesting the lake was not nearly as deep or extensive as we 
-        thought. “There was likely a small lake or more likely a series of small
-        lakes in the floor of Gale crater, but these were shallow ponds,” says 
-        Michalski.
-      </p>
-
-      <p>
-        The rocks that didn’t form in water appeared to be volcanic, so 
-        Michalski says that they may have formed out of ash from volcanic 
-        eruptions after the water in Gale crater had dried up. Observations by 
-        other Mars missions have hinted that these sediments were deposited by 
-        wind, not water, so this may solve that mismatch.
-      </p>
-
-      <p class="reference">
-        <span>Journal References:</span>
-        <em>Science Advances,</em> <a href="#">DOI: 10.1126/sciadv.abh2687</a>
-      </p>
-
-      <p>
-        Sign up to our free Launchpad newsletter for a voyage across the galaxy 
-        and beyond, every Friday
-      </p>
-
-      <p>
-        More on this topics:
-        <a href="#">PLANETS</a>
-        <a href="#">MARS</a>
-      </p>
-    </article>
-
-    <div class="sponsored">
-      <h3>SPONSORED CONTENT</h3>
-
-      <div class="wrapper">
-        <img src="sponsored.jpg" alt="">
         <div class="wrapper">
-          <h4>Win $1000 and a sined book</h4>
-          <p>
-            Adveetorial science is endlessly fascinating, and most exciting of 
-            all advancing everyday. Scientists and their...
-            <span>
-              Sponsored by <a href="#">ESET Science Award</a>
-            </span>
-          </p>
+          <img src="sponsored.jpg" alt="">
+          <div class="wrapper">
+            <h4>Win $1000 and a sined book</h4>
+            <p>
+              Adveetorial science is endlessly fascinating, and most exciting of 
+              all advancing everyday. Scientists and their...
+              <span>
+                Sponsored by <a href="#">ESET Science Award</a>
+              </span>
+            </p>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <aside>
-    <div class="tabs">
-      <button type="button">TRENDING</button>
-      <button type="button">LATEST</button>
-      <button type="button">VIDEO</button>
-      <button type="button">FREE</button>
-    </div>
+    <aside>
+      <div class="tabs">
+        <button type="button">TRENDING</button>
+        <button type="button">LATEST</button>
+        <button type="button">VIDEO</button>
+        <button type="button">FREE</button>
+      </div>
 
-    <ol>
-      <li>
-        <a href="#">
-          How <em>Minecaft</em> is helping children with autism make new friends
-        </a>
-      </li>
+      <ol>
+        <li>
+          <a href="#">
+            How <em>Minecaft</em> is helping children with autism make new friends
+          </a>
+        </li>
 
-      <li>
-        <a href="#">
-          Tomato is first CRISPR-edited food to go on sale in the world
-        </a>
-      </li>
+        <li>
+          <a href="#">
+            Tomato is first CRISPR-edited food to go on sale in the world
+          </a>
+        </li>
 
-      <li>
-        <a href="#">
-          Most CO2 from Australia's megafires has been offset by algal blooms
-        </a>
-      </li>
+        <li>
+          <a href="#">
+            Most CO2 from Australia's megafires has been offset by algal blooms
+          </a>
+        </li>
 
-      <li>
-        <a href="#">
-          Brave or reckless? Thrill-seekers' brains can tell you
-        </a>
-      </li>
+        <li>
+          <a href="#">
+            Brave or reckless? Thrill-seekers' brains can tell you
+          </a>
+        </li>
 
-      <li>
-        <a href="#">
-          How our ape ancestors suddenly lost their tails 25 million years ago
-        </a>
-      </li>
-    </ol>
-  </aside>
+        <li>
+          <a href="#">
+            How our ape ancestors suddenly lost their tails 25 million years ago
+          </a>
+        </li>
+      </ol>
+    </aside>
+  </div>
 
   <section class="magazine">
     <ul>
